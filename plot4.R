@@ -1,3 +1,8 @@
+# draw 4 graphics 
+# histogram for Global Active Power
+# Draw graphic of Global_active_power according time
+# Draw graphic of Sub metering according time
+# Draw graphic of Global_reactive_power according time
 plot4 <- function() {
  	# filter only the targeted date 
  	grep_data <- grep("^(1/2/2007)|^(2/2/2007)", readLines("household_power_consumption.txt"))

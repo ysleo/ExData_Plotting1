@@ -1,3 +1,4 @@
+# Draw graphic of Sub metering according time
 plot3 <- function() {
  	# filter only the targeted date 
  	grep_data <- grep("^(1/2/2007)|^(2/2/2007)", readLines("household_power_consumption.txt"))
